@@ -253,7 +253,7 @@ export default class AddPage {
         console.log(message);
         this.clearForm();
 
-        location.href = '/StoryApp/#/';
+        location.href = '#/';
     }
 
     storeFailed(message) {
